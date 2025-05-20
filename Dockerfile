@@ -1,4 +1,4 @@
-FROM openjdk:21-jre-slim
+FROM amazoncorretto:21-alpine-jdk
 WORKDIR /app
 COPY target/*.jar app.jar
 EXPOSE 8080
